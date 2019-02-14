@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <script src="./scripts/jquery-3.3.1.min.js"></script>
+    <script src="./scripts/bootstrap.min.js"></script>
+</head>
+
+    <body>
+
+        This is my rest demo. <br/>
+
+        <script>
+
+            $.ajax(
+                {
+                    url:"rest/test",
+                    success : function(data){
+                        console.log(data);
+                        console.log(data.name);
+                    }
+                }
+            );
+
+        </script>
+
+
+        
+
+    </body>
+
+</html>
